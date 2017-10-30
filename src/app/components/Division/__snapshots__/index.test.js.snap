@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Division Division match expected snapshot 1`] = `
+<div
+  className="division-class-name"
+>
+  Division id: 1, title: company, HID: 12
+</div>
+`;

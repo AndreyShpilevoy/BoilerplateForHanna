@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserProfile UserProfile match expected snapshot 1`] = `
+<div
+  className="userProfile-class-name"
+>
+  User id: 1, User name: some user
+</div>
+`;

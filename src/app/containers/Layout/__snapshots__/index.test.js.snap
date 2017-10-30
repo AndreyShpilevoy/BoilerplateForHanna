@@ -1,0 +1,80 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MainPage LocalePure match expected snapshot 1`] = `
+<div>
+  <div>
+    Some layout wrapper start
+  </div>
+  <div>
+    Locale: EN
+  </div>
+  content
+  <div>
+    Some layout wrapper end
+  </div>
+</div>
+`;
+
+exports[`MainPage MainPage match expected snapshot 1`] = `
+<Connect(LayoutPure)
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <LayoutPure
+    getLocale={[Function]}
+    locale="EN"
+    store={
+      Object {
+        "clearActions": [Function],
+        "dispatch": [Function],
+        "getActions": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+      }
+    }
+    storeSubscription={
+      Subscription {
+        "listeners": Object {
+          "clear": [Function],
+          "get": [Function],
+          "notify": [Function],
+          "subscribe": [Function],
+        },
+        "onStateChange": [Function],
+        "parentSub": undefined,
+        "store": Object {
+          "clearActions": [Function],
+          "dispatch": [Function],
+          "getActions": [Function],
+          "getState": [Function],
+          "replaceReducer": [Function],
+          "subscribe": [Function],
+        },
+        "unsubscribe": [Function],
+      }
+    }
+  >
+    <div>
+      <div>
+        Some layout wrapper start
+      </div>
+      <div>
+        Locale: EN
+      </div>
+      content
+      <div>
+        Some layout wrapper end
+      </div>
+    </div>
+  </LayoutPure>
+</Connect(LayoutPure)>
+`;

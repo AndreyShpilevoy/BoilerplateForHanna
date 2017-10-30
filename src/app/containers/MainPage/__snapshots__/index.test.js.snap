@@ -1,0 +1,371 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MainPage MainPage with data match expected snapshot 1`] = `
+<Connect(MainPagePure)
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <MainPagePure
+    divisionsArray={
+      Array [
+        Object {
+          "HID": 1,
+          "id": 1,
+          "title": "Soda",
+        },
+        Object {
+          "HID": 3,
+          "id": 2,
+          "title": "Water inc.",
+        },
+      ]
+    }
+    getDivisionsArray={[Function]}
+    getUserProfilesArray={[Function]}
+    store={
+      Object {
+        "clearActions": [Function],
+        "dispatch": [Function],
+        "getActions": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+      }
+    }
+    storeSubscription={
+      Subscription {
+        "listeners": Object {
+          "clear": [Function],
+          "get": [Function],
+          "notify": [Function],
+          "subscribe": [Function],
+        },
+        "onStateChange": [Function],
+        "parentSub": undefined,
+        "store": Object {
+          "clearActions": [Function],
+          "dispatch": [Function],
+          "getActions": [Function],
+          "getState": [Function],
+          "replaceReducer": [Function],
+          "subscribe": [Function],
+        },
+        "unsubscribe": [Function],
+      }
+    }
+    userProfilesArray={
+      Array [
+        Object {
+          "id": 1,
+          "name": "Ben",
+          "order": 1,
+        },
+        Object {
+          "id": 2,
+          "name": "Suzan",
+          "order": 2,
+        },
+      ]
+    }
+  >
+    <div
+      className={undefined}
+    >
+      <div
+        className={undefined}
+      >
+        <Logo
+          alt="logo"
+          className=""
+        >
+          <Link
+            replace={false}
+            to="/MainPage"
+          />
+        </Logo>
+        <h2>
+          Welcome to React
+        </h2>
+      </div>
+      <p
+        className={undefined}
+      >
+        To get started, edit 
+        <code>
+          src/containers/MainPage/index.js
+        </code>
+         and save to reload.
+      </p>
+      <div>
+        User profiles list:
+      </div>
+      <UserProfile
+        className=""
+        key="1"
+        userProfile={
+          Object {
+            "id": 1,
+            "name": "Ben",
+            "order": 1,
+          }
+        }
+      >
+        <div
+          className=""
+        >
+          User id: 1, User name: Ben
+        </div>
+      </UserProfile>
+      <UserProfile
+        className=""
+        key="2"
+        userProfile={
+          Object {
+            "id": 2,
+            "name": "Suzan",
+            "order": 2,
+          }
+        }
+      >
+        <div
+          className=""
+        >
+          User id: 2, User name: Suzan
+        </div>
+      </UserProfile>
+      <div>
+        Divisions list:
+      </div>
+      <Division
+        className=""
+        division={
+          Object {
+            "HID": 1,
+            "id": 1,
+            "title": "Soda",
+          }
+        }
+        key="1"
+      >
+        <div
+          className=""
+        >
+          Division id: 1, title: Soda, HID: 1
+        </div>
+      </Division>
+      <Division
+        className=""
+        division={
+          Object {
+            "HID": 3,
+            "id": 2,
+            "title": "Water inc.",
+          }
+        }
+        key="2"
+      >
+        <div
+          className=""
+        >
+          Division id: 2, title: Water inc., HID: 3
+        </div>
+      </Division>
+    </div>
+  </MainPagePure>
+</Connect(MainPagePure)>
+`;
+
+exports[`MainPage MainPage without data match expected snapshot 1`] = `
+<Connect(MainPagePure)
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <MainPagePure
+    divisionsArray={Array []}
+    getDivisionsArray={[Function]}
+    getUserProfilesArray={[Function]}
+    store={
+      Object {
+        "clearActions": [Function],
+        "dispatch": [Function],
+        "getActions": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+      }
+    }
+    storeSubscription={
+      Subscription {
+        "listeners": Object {
+          "clear": [Function],
+          "get": [Function],
+          "notify": [Function],
+          "subscribe": [Function],
+        },
+        "onStateChange": [Function],
+        "parentSub": undefined,
+        "store": Object {
+          "clearActions": [Function],
+          "dispatch": [Function],
+          "getActions": [Function],
+          "getState": [Function],
+          "replaceReducer": [Function],
+          "subscribe": [Function],
+        },
+        "unsubscribe": [Function],
+      }
+    }
+    userProfilesArray={Array []}
+  >
+    <div
+      className={undefined}
+    >
+      <div
+        className={undefined}
+      >
+        <Logo
+          alt="logo"
+          className=""
+        >
+          <Link
+            replace={false}
+            to="/MainPage"
+          />
+        </Logo>
+        <h2>
+          Welcome to React
+        </h2>
+      </div>
+      <p
+        className={undefined}
+      >
+        To get started, edit 
+        <code>
+          src/containers/MainPage/index.js
+        </code>
+         and save to reload.
+      </p>
+      <div>
+        User profiles list:
+      </div>
+      <div>
+        Divisions list:
+      </div>
+    </div>
+  </MainPagePure>
+</Connect(MainPagePure)>
+`;
+
+exports[`MainPage MainPagePure with data match expected snapshot 1`] = `
+<div>
+  <div>
+    <Logo
+      alt="logo"
+      className=""
+    />
+    <h2>
+      Welcome to React
+    </h2>
+  </div>
+  <p>
+    To get started, edit 
+    <code>
+      src/containers/MainPage/index.js
+    </code>
+     and save to reload.
+  </p>
+  <div>
+    User profiles list:
+  </div>
+  <UserProfile
+    className=""
+    key="1"
+    userProfile={
+      Object {
+        "id": 1,
+        "name": "Ben",
+        "order": 1,
+      }
+    }
+  />
+  <UserProfile
+    className=""
+    key="2"
+    userProfile={
+      Object {
+        "id": 2,
+        "name": "Suzan",
+        "order": 2,
+      }
+    }
+  />
+  <div>
+    Divisions list:
+  </div>
+  <Division
+    className=""
+    division={
+      Object {
+        "HID": 1,
+        "id": 1,
+        "title": "Soda",
+      }
+    }
+    key="1"
+  />
+  <Division
+    className=""
+    division={
+      Object {
+        "HID": 3,
+        "id": 2,
+        "title": "Water inc.",
+      }
+    }
+    key="2"
+  />
+</div>
+`;
+
+exports[`MainPage MainPagePure without data match expected snapshot 1`] = `
+<div>
+  <div>
+    <Logo
+      alt="logo"
+      className=""
+    />
+    <h2>
+      Welcome to React
+    </h2>
+  </div>
+  <p>
+    To get started, edit 
+    <code>
+      src/containers/MainPage/index.js
+    </code>
+     and save to reload.
+  </p>
+  <div>
+    User profiles list:
+  </div>
+  <div>
+    Divisions list:
+  </div>
+</div>
+`;

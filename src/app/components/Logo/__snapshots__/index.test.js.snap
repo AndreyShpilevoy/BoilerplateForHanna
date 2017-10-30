@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Logo Logo match expected snapshot 1`] = `
+<Link
+  replace={false}
+  to="/MainPage"
+>
+  <img
+    alt="logo-alt-name"
+    className="logo-class-name"
+    src="test-file-stub"
+  />
+</Link>
+`;
